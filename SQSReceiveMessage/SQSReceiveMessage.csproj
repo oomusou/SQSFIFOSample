@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AWSSDK.SQS">
+      <HintPath>C:\Users\oomusou\.nuget\packages\awssdk.sqs\3.3.2.7\lib\net45\AWSSDK.SQS.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+</Project>
